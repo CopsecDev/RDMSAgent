@@ -1,0 +1,27 @@
+package com.copsec.railway.rms.enums;
+
+/**
+ * 用于定义不同信息类型
+ */
+public enum  MonitorItemEnum {
+
+	CPU,
+	DISK,
+	MEMORY,
+	USER,
+	SYSTEMTYPE,
+	SYSTEMVERSION,
+	SYSTEMPATCH,
+	APPLICATION,
+	INSTANCES_WEB70,
+	INSTANCES_WEBPROXY40,
+	INSTANCES_CONFIG,
+	INSTANCES_USER,
+	NETWORK,
+	ACCESSLOG,
+	PROXYLOG,
+	CERT70,
+	CERT40,
+	IMSERVICE,
+	RAID
+}
